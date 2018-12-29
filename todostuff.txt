@@ -1,0 +1,119 @@
+SCR Info
+
+✅🇺🇸 English Finished (Content)
+✅🇰🇷 Korean Finished (Content)
+
+Pages
+-----
+Home
+Live
+News
+Explore
+✅🇰🇷 ✅🇺🇸 Shop
+✅🇰🇷 ✅🇺🇸 About  		❗️ Needs Social Media Links
+✅🇰🇷 ✅🇺🇸 Language Selector 	❗️ Need title clicking to default to current language
+
+❓ Need English Language PDF for "About Partnerships with SCR"
+❓ Need Korean Language PDF for "About Partnerships with SCR"
+❓ Need English Language PDF for "About SCR for Artists"
+❓ Need Korean Language PDF for "About SCR for Artists"
+❓ Need Korean Language wording for "About SCR" page
+❓ Need Social Media Links for the scooting cloud (between Twitter and Soundcloud on the About page in the mockups.
+❓ Need YouTube Channel ID for live stream (or another option for live streaming) [Get the Channel ID from https://www.youtube.com/account_advanced. Not the User ID!]
+
+- Find links for Social Media (Facebook, Instagram, Twitter, Soundcloud, YouTube, Dailymotion)
+
+
+<iframe width="1280" height="320" src="https://www.youtube.com/embed/live_stream?channel=yourChannelid&autoplay=1" frameborder="0" allowfullscreen></iframe>
+
+--
+
+Show Page
+
+Artist Name
+Show Name
+Show Description
+
+--
+
+Artist Page [Type]
+
+Artist Name
+Artist Image
+Artist SNS Links (Facebook, Twitter, Instagram, Soundcloud)
+Artist Description
+Artist Genres
+Artist Context [Resident, Local, Worldwide]
+
+Latest Show
+
+--
+
+News Article Page [Type]
+
+Title
+Date
+Headline Image
+
+Body and Images and Whatever
+
+--
+
+Live Page
+<Location Name>
+<Location Description>
+<Video>
+<Comments from SNS>
+
+--
+
+Website Footer
+
+SNS: Facebook, Insta, Twitter, Sth [coloud], Soundcloud, YouTube, Sth [d]
+
+--
+
+Website Header
+
+Name
+Logo
+Menu: Home, Live, News, Explore, Shop (Worldwide, Korea), About, Language Selector
+Music Player
+Search Bar
+
+--
+
+Current Advertisement inclusion
+
+--
+
+News Page
+
+Latest News
+<news list>, recent posts, archive 
+
+--
+
+Explore
+
+<Search box.. live search?>
+<Artist Context Selector>
+<Genre Selector>
+
+-- 
+
+About Page
+
+--
+
+- Find links for Social Media (Facebook, Instagram, Twitter, Soundcloud, YouTube, Dailymotion)
+
+
+Facebook	https://www.facebook.com/seoulcommunityradio/
+Instagram	https://www.instagram.com/scr_radio/
+Twitter		https://twitter.com/radio_scr
+SoundCloud	https://soundcloud.com/seoulcommunityradio
+YouTube		https://www.youtube.com/channel/UCUjB4nj0j-pYBaYI0sXekfw
+DailyMotion	https://www.dailymotion.com/scr
+
+

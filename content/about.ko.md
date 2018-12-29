@@ -1,0 +1,22 @@
+---
+title: "SCR에 관하여"
+date: 2018-12-18T23:41:17+09:00
+---
+
+![alt text](/img/scr_logo_large.png "Seoul Community Radio Logo")
+
+Machine Translation. Need translation from SCR staff. 기계 번역. SCR 직원으로부터 번역이 필요합니다.
+
+서울 커뮤니티 라디오는 2016 년부터 한국 언더 그라운드 음악과 문화에 전념하는 수상 경력이있는 방송 플랫폼입니다.
+
+이태원 스튜디오와 국내외 주요 장소에서 매일 스트리밍되는 아티스트, 브랜드 및 기관과 협력하여 한국의 하위 문화를 역동적 인 새로운 방식으로 소개합니다.
+
+한국의 영향력있는 청중은 취사 선택적인 취향으로 성장하고 있으며, 우리는 우리의 사명을 돕기 위해 관련 파트너를 찾고 있습니다.
+
+-Social Media Links Go Here-
+
+다운로드하려면 클릭하십시오.
+
+[예비 파트너를 위한 SCR 설명 PDF](/partnership.pdf)
+
+[아티스트를 위한 SCR 설명 PDF](/artists.pdf)

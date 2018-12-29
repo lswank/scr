@@ -1,0 +1,66 @@
+baseURL = "http://localhost/"
+theme = "anankescr"
+DefaultContentLanguage = "en"
+languageCode = "en-us"
+defaultContentLanguageInSubdir = "true"
+
+[languages]
+  [languages.en]
+    title = "Seoul Community Radio"
+    languageName = "English"
+  [languages.ko]
+    title = "서울커뮤니티라디오"
+    languageName = "한국어"
+    url = "/ko/"
+
+# English Language Menus
+[[languages.en.menu.main]]
+    name = "Home" #Name in the navigation bar
+    weight = 10 #The larger the weight, the more on the right this item will be
+    url = "/en" #URL address
+[[languages.en.menu.main]]
+    name = "Live"
+    weight = 20
+    url = "/en/live"
+[[languages.en.menu.main]]
+    name = "News"
+    weight = 30
+    url = "/en/news"
+[[languages.en.menu.main]]
+    name = "Explore"
+    weight = 40
+    url = "/en/artist"
+[[languages.en.menu.main]]
+    name = "Shop"
+    weight = 50
+    url = "https://tictail.com/scrradio"
+[[languages.en.menu.main]]
+    name = "About SCR"
+    weight = 60
+    url = "/en/about"
+
+# Korean Language Menus
+[[languages.ko.menu.main]]
+    name = "홈" #Name in the navigation bar
+    weight = 10 #The larger the weight, the more on the right this item will be
+    url = "/ko" #URL address
+[[languages.ko.menu.main]]
+    name = "생방송"
+    weight = 20
+    url = "/ko/live"
+[[languages.ko.menu.main]]
+    name = "뉴스"
+    weight = 30
+    url = "/ko/news"
+[[languages.ko.menu.main]]
+    name = "들러보기"
+    weight = 40
+    url = "/ko/artist"
+[[languages.ko.menu.main]]
+    name = "숍"
+    weight = 50
+    url = "http://scrradio.cafe24.com/"
+[[languages.ko.menu.main]]
+    name = "SCR에 관하여"
+    weight = 60
+    url = "/ko/about"

@@ -1,0 +1,21 @@
+
+{{ define "main" }}
+<section id="main">
+	<center>
+		<h1 id="title">{{ .Title }}</h1>
+		<div>
+			<article id="content">
+				{{ .Content }}
+			</article>
+			<div id="liveStream">
+				<iframe width="1280" height="720" src="https://www.youtube.com/embed/live_stream?channel={{ $.Param "channelid" }}&autoplay=1" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div id="socialFeed">
+				Social feed goes here.
+			</div>
+		</div>
+	</center>
+</section>
+{{ end }}
+
+
