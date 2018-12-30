@@ -1,3 +1,14 @@
+Known Issues and Suggested Resolutions:
+
+❓ (Urgent) Need English Language PDF for "About Partnerships with SCR"
+❓ (Urgent) Need Korean Language PDF for "About Partnerships with SCR"
+❓ (Urgent) Need English Language PDF for "About SCR for Artists"
+❓ (Urgent) Need Korean Language PDF for "About SCR for Artists"
+❓ (Urgent) Need Korean Language wording for "About SCR" page
+❓ (Important) Need Social Media Links for the scooting cloud (between Twitter and Soundcloud on the About page in the mockups.
+❓ (Urgent) Need YouTube Channel ID for live stream (or another option for live streaming) [Get the Channel ID from https://www.youtube.com/account_advanced. Not the User ID!]
+📝 (Won't fix.) SCR logo isn't centered on the home page. It won't be centered because the page needs to be responsive and I can't figure out how to do both responsiveness AND get it centered.
+
 SCR Info
 
 ✅🇺🇸 English Finished (Content)
@@ -13,13 +24,7 @@ Explore
 ✅🇰🇷 ✅🇺🇸 About  		❗️ Needs Social Media Links
 ✅🇰🇷 ✅🇺🇸 Language Selector 	❗️ Need title clicking to default to current language
 
-❓ Need English Language PDF for "About Partnerships with SCR"
-❓ Need Korean Language PDF for "About Partnerships with SCR"
-❓ Need English Language PDF for "About SCR for Artists"
-❓ Need Korean Language PDF for "About SCR for Artists"
-❓ Need Korean Language wording for "About SCR" page
-❓ Need Social Media Links for the scooting cloud (between Twitter and Soundcloud on the About page in the mockups.
-❓ Need YouTube Channel ID for live stream (or another option for live streaming) [Get the Channel ID from https://www.youtube.com/account_advanced. Not the User ID!]
+
 
 - Find links for Social Media (Facebook, Instagram, Twitter, Soundcloud, YouTube, Dailymotion)
 

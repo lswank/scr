@@ -15,11 +15,11 @@
         {{ range .Site.Menus.main }}
         <li class="small-caps list f6 f5-ns fw4 dib pr3">
           {{ if (or (eq .Name "Live") (eq .Name "생방송")) }}
-          <a class="hover-white no-underline bg-dark-red mid-gray" href="{{ .URL }}" title="{{ .Name }} page">
+          <a class="hover-white no-underline bg-dark-red silver" href="{{ .URL }}" title="{{ .Name }} page">
             {{ .Name }}
           </a>
           {{ else }}
-          <a class="hover-white no-underline mid-gray" href="{{ .URL }}" title="{{ .Name }} page">
+          <a class="hover-white no-underline silver" href="{{ .URL }}" title="{{ .Name }} page">
               {{ .Name }}
           </a>
           {{ end }}
@@ -31,7 +31,7 @@
         {{ else }}
         {{ range $.Translations }}
         <li class="small-caps list f6 f5-ns fw4 dib pr3">
-            <a href="{{ .Permalink }}" class="hover-white no-underline mid-gray">{{ .Language.LanguageName }}</a>
+            <a href="{{ .Permalink }}" class="hover-white no-underline silver">{{ .Language.LanguageName }}</a>
         </li>
         {{ end }}
         {{ end }}
