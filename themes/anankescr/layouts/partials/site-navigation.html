@@ -1,26 +1,27 @@
-<nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l justify-between items-center">
-    <a href="{{ .Site.BaseURL }}" class="f3 fw2 hover-white no-underline white dib">
+<nav class="cf pv3 ph3 flex-l" role="navigation">
+  <div class="fl w-third tc pv5">
+    <a href="{{ .Site.BaseURL }}" class="din-bold f2 fw2 hover-white no-underline white dib">
       {{ .Site.Title }}
     </a>
-    
-    <div class="flex-l items-center white-90">
+  </div>
+  <div class="fl w-third tc pv5">
+    <div class="">
       <img src="{{ .Site.BaseURL }}/images/scr_logo.png" class="img" width="80" alt="Seoul Community Radio Logo">
     </div>
-    <div class="flex-l items-center">
-      
+  </div>
+  <div class="fl w-third tc pv5">
       {{ if .Site.Menus.main }}
       <ul class="pl0 mr3">
         {{ $currentNode := . }}
         {{ range .Site.Menus.main }}
-        <li class="small-caps list f6 f5-ns fw4 dib pr3">
-          {{ if (or (eq .Name "Live") (eq .Name "생방송")) }}
-          <a class="hover-white no-underline bg-dark-red silver" href="{{ .URL }}" title="{{ .Name }} page">
+        <li class="list f6 fw4 dib pr3">
+          {{ if (or (eq .Name "LIVE") (eq .Name "생방송")) }}
+          <a class="din-thin hover-white no-underline bg-dark-red silver" href="{{ .URL }}" title="{{ .Name }} page">
             {{ .Name }}
           </a>
           {{ else }}
-          <a class="hover-white no-underline silver" href="{{ .URL }}" title="{{ .Name }} page">
-              {{ .Name }}
+          <a class="din-thin hover-white no-underline silver" href="{{ .URL }}" title="{{ .Name }} page">
+            {{ .Name }}
           </a>
           {{ end }}
         </li>
@@ -30,8 +31,8 @@
         {{ if eq . $.Site.Language }}
         {{ else }}
         {{ range $.Translations }}
-        <li class="small-caps list f6 f5-ns fw4 dib pr3">
-            <a href="{{ .Permalink }}" class="hover-white no-underline silver">{{ .Language.LanguageName }}</a>
+        <li class="small-caps list f6 fw4 dib pr3">
+          <a href="{{ .Permalink }}" class="hover-white no-underline silver">{{ .Language.LanguageName }}</a>
         </li>
         {{ end }}
         {{ end }}
@@ -39,6 +40,49 @@
         {{ end }}
       </ul>
       {{ end }}
-    </div>
   </div>
-</nav>
+</div>
+
+<nav class="pv3 ph3 ph4-ns" role="navigation">
+    <div class="flex-l justify-between items-center">
+      <a href="{{ .Site.BaseURL }}" class="din-bold f2 fw2 hover-white no-underline white dib">
+        {{ .Site.Title }}
+      </a>
+      <div class="">
+        <img src="{{ .Site.BaseURL }}/images/scr_logo.png" class="img" width="80" alt="Seoul Community Radio Logo">
+      </div>
+      <div class="flex-l items-center">  
+        {{ if .Site.Menus.main }}
+        <ul class="pl0 mr3">
+          {{ $currentNode := . }}
+          {{ range .Site.Menus.main }}
+          <li class="list f6 fw4 dib pr3">
+            {{ if (or (eq .Name "LIVE") (eq .Name "생방송")) }}
+            <a class="din-thin hover-white no-underline bg-dark-red silver" href="{{ .URL }}" title="{{ .Name }} page">
+              {{ .Name }}
+            </a>
+            {{ else }}
+            <a class="din-thin hover-white no-underline silver" href="{{ .URL }}" title="{{ .Name }} page">
+              {{ .Name }}
+            </a>
+            {{ end }}
+          </li>
+          {{ end }}
+          {{ if .Site.IsMultiLingual }}
+          {{ range .Site.Languages }}
+          {{ if eq . $.Site.Language }}
+          {{ else }}
+          {{ range $.Translations }}
+          <li class="small-caps list f6 fw4 dib pr3">
+            <a href="{{ .Permalink }}" class="hover-white no-underline silver">{{ .Language.LanguageName }}</a>
+          </li>
+          {{ end }}
+          {{ end }}
+          {{ end }}
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+    </div>
+  </nav>
+  

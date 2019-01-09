@@ -6,8 +6,11 @@ Known Issues and Suggested Resolutions:
 ❓ (Urgent) Need Korean Language PDF for "About SCR for Artists"
 ❓ (Urgent) Need Korean Language wording for "About SCR" page
 ❓ (Important) Need Social Media Links for the scooting cloud (between Twitter and Soundcloud on the About page in the mockups.
-❓ (Urgent) Need YouTube Channel ID for live stream (or another option for live streaming) [Get the Channel ID from https://www.youtube.com/account_advanced. Not the User ID!]
 📝 (Won't fix.) SCR logo isn't centered on the home page. It won't be centered because the page needs to be responsive and I can't figure out how to do both responsiveness AND get it centered.
+
+❓ (Not important for launch) Live Page: Red padding (horizontal divider) is missing above the live video.
+📝 (Won't fix.) Words are used for language selection instead of flags. Flags are harder to do with this content management system and still get the speed we need for switching languages.
+
 
 SCR Info
 

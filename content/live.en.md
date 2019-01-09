@@ -1,11 +1,11 @@
 ---
-title: "Live"
+title: "Live from Blue Marble Hall"
 date: 2018-12-19T18:48:41+09:00
 type: "live"
-channelid: "UCSJ4gkVC6NrvII8umztf0Ow"
+channelid: "x6u83op"
 ---
 
-# Live from Blue Marble Hall
-Artist Z and Blue Cheese
-Playing all of their best hits.
+Live From marina event at hall in hongdae
+
+Musxxx, Glow, Junbeck, Jeremy Orlander playing for 3 hours
 

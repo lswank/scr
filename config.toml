@@ -15,27 +15,27 @@ defaultContentLanguageInSubdir = "true"
 
 # English Language Menus
 [[languages.en.menu.main]]
-    name = "Home" #Name in the navigation bar
+    name = "HOME" #Name in the navigation bar
     weight = 10 #The larger the weight, the more on the right this item will be
     url = "/en" #URL address
 [[languages.en.menu.main]]
-    name = "Live"
+    name = "LIVE"
     weight = 20
     url = "/en/live"
 [[languages.en.menu.main]]
-    name = "News"
+    name = "LATEST NEWS"
     weight = 30
     url = "/en/news"
 [[languages.en.menu.main]]
-    name = "Explore"
+    name = "EXPLORE"
     weight = 40
     url = "/en/artist"
 [[languages.en.menu.main]]
-    name = "Shop"
+    name = "SHOP"
     weight = 50
     url = "https://tictail.com/scrradio"
 [[languages.en.menu.main]]
-    name = "About SCR"
+    name = "ABOUT SCR"
     weight = 60
     url = "/en/about"
 

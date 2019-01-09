@@ -1,21 +1,21 @@
-
 {{ define "main" }}
-<section id="main">
-	<center>
-		<h1 id="title">{{ .Title }}</h1>
-		<div>
-			<article id="content">
+<section id="main" class="flex tc">
+		<div class="center pa3 w-80">
+			<h1 id="title" class="din-bold">{{ .Title }}</h1>
+			<article id="content" class="din-thin">
 				{{ .Content }}
 			</article>
-			<div id="liveStream">
-				<iframe width="1280" height="720" src="https://www.youtube.com/embed/live_stream?channel={{ $.Param "channelid" }}&autoplay=1" frameborder="0" allowfullscreen></iframe>
+			<div id="liveStream" class="center bt b--red aspect-ratio aspect-ratio--16x9">
+				<iframe frameborder="0" class="aspect-ratio--object"
+            src="http://www.dailymotion.com/embed/video/{{ $.Param "channelid" }}?autoplay=1&mute=1"
+            allowfullscreen allow="autoplay">
+        </iframe>
 			</div>
+			<!--			
 			<div id="socialFeed">
-				Social feed goes here.
+				Social feed removed at Rich's request, since we don't have a great way to do it yet. 
 			</div>
+			-->
 		</div>
-	</center>
 </section>
 {{ end }}
-
-

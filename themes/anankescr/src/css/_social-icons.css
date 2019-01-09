@@ -1,14 +1,5 @@
-.facebook, .twitter, .instagram, .youtube, .github, .gitlab, .linkedin, .medium {
-  fill: #BABABA;
-}
-
-.new-window {
-  opacity: 0;
-  display: inline-block;
-  vertical-align: top;
-}
-.link-transition:hover .new-window{
-  opacity: 1;
+.facebook, .twitter, .instagram, .soundcloud, .youtube, .dailymotion {
+  fill: #111111;
 }
 
 .facebook:hover {
@@ -23,22 +14,18 @@
   fill: #e1306c;
 }
 
+.soundcloud:hover {
+  fill: #6cc644;
+}
+
+.naver:hover {
+  fill: #3EAF0E;
+}
+
 .youtube:hover {
   fill: #cd201f;
 }
 
-.github:hover {
-  fill: #6cc644;
-}
-
-.gitlab:hover {
-  fill: #FC6D26;
-}
-
-.linkedin:hover {
-  fill: #0077b5
-}
-
-.medium:hover {
+.dailymotion:hover {
   fill: #0077b5
 }
