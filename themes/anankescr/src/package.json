@@ -29,5 +29,7 @@
     "tachyons": "^4.9.1",
     "webpack": "^2.3.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bricks.js": "^1.8.0"
+  }
 }

@@ -1,8 +1,10 @@
 <footer class="bg-white bottom-0 w-100 pa3 pt5 mb4 din-thin" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f6 fw4 no-underline black-70 dn dib-ns pv2 ph3" href="{{ .Site.BaseURL }}" >
-      Copyright (c) {{ now.Format "2006" }} . All Rights Reserved . Seoul Community Radio
-  </a>
-    <div>{{ partial "social-follow.html" . }}</div>
+  <div class="justify-between">
+    <div>
+      <a class="f6 fw4 no-underline black-70 dib-ns pv2 ph3" href="{{ .Site.BaseURL }}" >
+        Copyright (c) {{ now.Format "2006" }} . All Rights Reserved . Seoul Community Radio
+      </a>
+    </div>
+    <div class="">{{ partial "social-follow.html" . }}</div>
   </div>
 </footer>

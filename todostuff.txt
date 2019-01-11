@@ -50,7 +50,7 @@ Artist Name
 Artist Image
 Artist SNS Links (Facebook, Twitter, Instagram, Soundcloud)
 Artist Description
-Artist Genres
+Artist genres
 Artist Context [Resident, Local, Worldwide]
 
 Latest Show
@@ -106,7 +106,7 @@ Explore
 
 <Search box.. live search?>
 <Artist Context Selector>
-<Genre Selector>
+<genres Selector>
 
 -- 
 

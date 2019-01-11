@@ -1,11 +1,16 @@
-<div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">{{ humanize .Section }}</span>
-    <h1 class="f3 near-black">
-      <a href="{{ .URL }}" class="link black dim">
+<div class="relative w-100 mb4 nested-copy-line-height din-thin">
+  <div class="bg-black mb3 pa2 overflow-hidden">
+    
+    <h1 class="f3 white">
+      <a href="{{ .URL }}" class="link white dim small-caps">
         {{ .Title }}
       </a>
     </h1>
+    <span class="f6 db mb3">
+    {{ range .Param "genres"}}
+    {{ . }}
+    {{ end }}
+    </span>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       {{ .Summary  }}
     </div>
