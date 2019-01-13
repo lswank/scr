@@ -1,0 +1,31 @@
+{{ define "main" }}
+<section id="main" class="flex tc">
+  <div class="center pa3 w-80">
+    <div id="headerText">
+      <h1 id="title" class="din-bold">{{ .Title }}</h1>
+    </div>
+    <div id="logoHeader" class="w-40-ns center">
+      <img src="{{ .Site.BaseURL}}/img/scr_logo_large.png">
+    </div>
+    <div id="aboutTextContent" class="din-thin w-40-ns center">
+      {{ .Content }}
+    </div>
+    <div id="socialMediaLinks">
+        {{/*  Coming soon.  */}}
+    </div>
+    <div id="downloadSection" class="pt5">
+      <div class="f6 gray">
+        Click for Download
+      </div>
+      <div class="flex-ns center w-90-ns w-40-l">
+          <div class="f4 pa4 w-50-ns">
+              <a href="{{ .Site.BaseURL}}/SCR2018Q4.en.pdf" class="no-underline link red hover-white small-caps">About SCR PDF<br \>for Partnership</a>
+            </div>
+            <div class="f4 pa4 w-50-ns">
+                <a href="{{ .Site.BaseURL}}/SCR2018Q4.ko.pdf" class="no-underline link red hover-white small-caps">SCR 파트너십<br \>설명서 (PDF)</a>
+            </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

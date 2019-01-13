@@ -1,0 +1,17 @@
+---
+title: "Dream in Rave / Sarovia"	
+artist-name: "Dream in Rave / Sarovia"	
+artist-description: "Sarovia presents ‘Dream in Rave’: light, yet powerful atmospheres through House, Tech House and Techno across current and old vinyl selections."	
+artist-featured-image: "noimage.png"	
+artist-facebook: "seoulcommunityradio"	
+artist-twitter: "Radio_SCR"	
+artist-instagram: "scr_radio"	
+artist-soundcloud: "seoulcommunityradio"	
+artist-youtubeChannelID: "UCUjB4nj0j-pYBaYI0sXekfw"	
+images: ""	
+group: "Residents"	
+genres: ""	
+daily-motion-playlist: ""	
+daily-motion-video: "x6uozdg"		
+---
+

@@ -7,12 +7,17 @@
       </a>
     </h1>
     <span class="f6 db mb3">
+    {{ if .Param "genres "}}
     {{ range .Param "genres"}}
     {{ . }}
     {{ end }}
+    {{ end }}
     </span>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      {{ .Summary  }}
+      {{/*  {{ .Summary  }}  */}}
+    {{ if .Param "artist-description" }}
+    {{ .Param "artist-description" }}
+    {{ end }}
     </div>
   </div>
 </div>

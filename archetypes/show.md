@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-DailyMotionVideo: "x4vmj52"
+daily-motion-video: "x4vmj52"
 draft: true
 ---

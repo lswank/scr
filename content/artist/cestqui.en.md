@@ -1,0 +1,16 @@
+---
+title: "C'est Qui"	
+artist-name: "C'est Qui"	
+artist-description: "Closet Yi and Naone, under the name of C’est Qui, are two young artists jacking the dance floor in Seoul’s fast-rising underground electronic music scene. Naone and Closet Yi have been constantly showing their passion towards house music for the past few years, and now they have teamed up as C’est Qui, which suggested a brand new paradigm into Seoul’s underground sub culture. They are one of the fastest rising stars in Seoul’s dance music scene and have just successfully finished their first Boiler room debut this March along with Hunee, Call Super, Nobu, etc. Focusing mainly on classic deep house beats and original disco sounds, the two young artists jack the dance floor and by doing so."	
+artist-featured-image: "noimage.png"	
+artist-facebook: "seoulcommunityradio"	
+artist-twitter: "Radio_SCR"	
+artist-instagram: "scr_radio"	
+artist-soundcloud: "seoulcommunityradio"	
+artist-youtubeChannelID: "UCUjB4nj0j-pYBaYI0sXekfw"	
+images: ""	
+group: "Residents"	
+genres: ""	
+daily-motion-playlist: ""	
+daily-motion-video: "x6uozbr"		
+---
