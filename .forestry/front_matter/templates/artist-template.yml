@@ -1,0 +1,75 @@
+---
+label: Artist Template
+hide_body: 
+is_partial: 
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: artist-name
+  label: Artist name
+  type: text
+  hidden: false
+  default: ''
+- name: artist-description
+  label: Artist description
+  type: textarea
+  hidden: false
+  default: ''
+- name: artist-featured-image
+  label: Artist featured image
+  type: file
+  hidden: false
+  default: ''
+- name: artist-facebook
+  label: Artist facebook
+  type: text
+  hidden: false
+  default: ''
+- name: artist-twitter
+  label: Artist twitter
+  type: text
+  hidden: false
+  default: ''
+- name: artist-instagram
+  label: Artist instagram
+  type: text
+  hidden: false
+  default: ''
+- name: artist-soundcloud
+  label: Artist soundcloud
+  type: text
+  hidden: false
+  default: ''
+- name: artist-youtubeChannelID
+  label: Artist youtubechannelid
+  type: text
+  hidden: false
+  default: ''
+- name: images
+  label: Images
+  type: image_gallery
+  hidden: false
+  default: ''
+- name: group
+  label: Group
+  type: text
+  hidden: false
+  default: ''
+- name: genres
+  label: Genres
+  type: list
+  hidden: false
+  default: ''
+- name: daily-motion-playlist
+  label: Daily motion playlist
+  type: text
+  hidden: false
+  default: ''
+- name: daily-motion-video
+  label: Daily motion video
+  type: text
+  hidden: false
+  default: ''
