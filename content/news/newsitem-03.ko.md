@@ -1,7 +1,8 @@
 ---
-title: "SCR Japan Tour to feature DJ Seinfeld, N.O.S. Block.FM"
-date: 2018-09-29T20:52:18+09:00
-featured_image: "news01.png"
+title: 'SCR Japan Tour to feature DJ Seinfeld, N.O.S. Block.FM '
+date: 2018-09-29 11:52:18 +0000
+featured_image: news01.png
+
 ---
 Off the back of an incredible 2018 – including curating the prestigious DJ Kicks mix series and a 27-country world tour – DJ Seinfeld will kick off the new year in Tokyo in fine style through a collaboration with Tokyo-based rave platform/label N.O.S. and Seoul’s popular underground radio show and promoter, Seoul Community Radio.
 
@@ -12,4 +13,3 @@ N.O.S. have invited the Seoul Community Radio team to co-host proceedings, pione
 S.C.R. will bring up-and-coming artist and DJ Yuzo to perform her Tokyo debut and will stream the entire event as a special one-off broadcast. Room 2 will serve as a special pop-up shop so you party-goers will be able to grab popular S.C.R. merchandise on the day.
 
 This is two of Asia’s most exciting promoters and players presenting one of the underground dance music scene’s most exciting producers – do not sleep!
-
