@@ -1,0 +1,37 @@
+{{/*  title,description,space,hrule,article,featuredimage,headline,sidebar,recentposts,archive  */}}
+
+{{ define "main" }}
+<div id="allContent" class="cf ph3 ph4-m ph5-l pv5 w-100 w-90-m w-80-l center din-bold">
+  <div id="header" class="">
+    <div id="titleRegion" class="tc f1 w-100 pa3">LATEST NEWS</div>
+    <div id="descriptionRegion" class="tc pa3 din-thin">This section is for Seoul Community Radio’s latest news.<br \>Make sure to check them out!</div>
+  </div>
+  <div id="sideBySideRegion" class="fn fl-ns w-100-ns ">
+    <div id="newsBodyContentLeft" class="fn fl-ns w-70-ns">
+        <div id="emptySpace" class="pv2"></div>
+        <div id="horizontalRule" class="pb4 bt b--red"></div>
+        {{ range first 5 .Pages }}
+        <div class="cf pa2" id="article">
+          <div class="mt1" id="featuredImage">
+            <img src="{{ .Site.BaseURL }}img/{{ .Param "featured_image" }}" class="" alt="image from {{ .Title }}">
+          </div>
+          <div id="headline" class="">
+            {{- partial "summary.html" . -}}
+          </div>
+        </div>
+        {{ end }}
+    </div>
+    <div id="sidebarContentRight" class="fn fl-ns w-30-ns pa1 pa2-m pa3-l">
+      <div id="recentPostRegion">
+        <div class="red pb2 f2">Recent Post</div>
+        {{ range first 5 (after 5 .Pages) }}
+        <div class="din-thin f5 pb3"><a href="{{ .Permalink }}" class="link white hover-red">{{ .Title }}</a></div>
+        {{ end }}
+      </div>
+      <div id="archiveRegion">
+          {{/*  <div class="red pt4 pb2 f2">Archive</div>  */}}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
