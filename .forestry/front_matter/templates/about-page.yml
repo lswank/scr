@@ -2,6 +2,17 @@
 label: About Page
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: textarea
+  name: type
+  label: type
+  hidden: false
+  config:
+    required: true
+  default: about
+- type: text
+  name: title
+  label: title
+  description: About
 pages:
 - content/about.en.md
