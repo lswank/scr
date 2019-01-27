@@ -219,3 +219,5 @@ fields:
     0 turns off the automatic rotation.
   config:
     required: true
+pages:
+- content/_index.en.md
