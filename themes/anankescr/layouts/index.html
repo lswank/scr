@@ -7,30 +7,71 @@
 <link rel="stylesheet" href="../glide.theme.css">
 
 <div id="mainPageContent" class="pa3 white">
-  <div id="horizontalScrollingBannerRegion" class="bg-yellow">
-    <div id="intro" class="h5 glide bg-red">
-      <div data-glide-el="track" class="h-inherit glide__track">
-        <div class="h-inherit glide__slides">
-          <div class="glide__slide aspect-ratio aspect-ratio--4x3">
-            <div class="aspect-ratio--object overflow-hidden bg-center" style="background:url(http://placekitten.com/g/1024/256);">
-              Schlide One
-            </div>
+  <div id="horizontalScrollingBannerRegion" class="">
+    <div id="intro" class="glide">
+      <div data-glide-el="track" class="glide__track">
+        <div class="glide__slides ">
+          <div class="glide__slide relative">
+            <a class="link white dim" href="">
+              <div id="videoContainer" class="relative z-0">
+                <iframe frameborder="0" class="vh-50 w-100"
+                src="//www.dailymotion.com/embed/video/x6pwp5k?autoplay=1&mute=1&controls=false&quality=240&queue-enable=false&ui-logo=false&ui-start-screen-info=false"
+                allowfullscreen allow="autoplay"></iframe>
+              </div>
+              <div id="semiTransparentOverlayContainer" class="bg-black-50 absolute top-0 left-0 z-1 w-100 h-100">
+              </div>
+              <div id="textOverlayContainer" class="absolute w-100 h-100 top-0 left-0 z-2">
+                <div class="w-80 h-100 center">
+                  <div class="w-100 h-25"></div>
+                  <div class="w-100 h-50 din-bold f1 white pl4 pt3">Yaeji [NYC]</div>
+                  <div class="w-100 h-25 din-thin f4 white pl4 pt3">Here is some subtitle text that you can change in the content management interface that I have invited you to. You can change this text, where it links, the video behind this, now quickly it rotates, and all of the other slides.</div>  
+                </div>
+              </div>
+            </a>
           </div>
-          <!-- <div class="glide__slide aspect-ratio aspect-ratio--1x1">
-            <div class="aspect-ratio--object overflow-hidden bg-center" style="background:url(http://placekitten.com/g/1024/256);">
-              Schlide Two
-            </div>
+          <div class="glide__slide relative">
+            <a class="link white dim" href="https://www.dailymotion.com/video/x70etv8">
+              <div id="videoContainer" class="relative z-0">
+                <iframe frameborder="0" class="vh-50 w-100"
+                src="//www.dailymotion.com/embed/video/x70etv8?autoplay=1&mute=1&controls=false&quality=240&queue-enable=false&ui-logo=false&ui-start-screen-info=false"
+                allowfullscreen allow="autoplay"></iframe>
+              </div>
+              <div id="semiTransparentOverlayContainer" class="bg-black-50 absolute top-0 left-0 z-1 w-100 h-100">
+              </div>
+              <div id="textOverlayContainer" class="absolute w-100 h-100 top-0 left-0 z-2">
+                <div class="w-80 h-100 center">
+                  <div class="w-100 h-25"></div>
+                  <div class="w-100 h-50 din-bold f1 white pl4 pt3">2018 Highlight Reel</div>
+                  <div class="w-100 h-25 din-thin f4 white pl4 pt3">Thanks to all our listeners and supporters this past year. Watch out for some big surprises in 2019! </div>  
+                </div>
+              </div>
+            </a>
           </div>
-          <div id="player" class="glide__slide">
+          <div class="glide__slide relative">
+            <a class="link white dim" href="https://www.dailymotion.com/video/x6xom6j">
+              <div id="videoContainer" class="relative z-0">
+                <iframe frameborder="0" class="vh-50 w-100"
+                src="//www.dailymotion.com/embed/video/x6xom6j?autoplay=1&mute=1&controls=false&quality=240&queue-enable=false&ui-logo=false&ui-start-screen-info=false"
+                allowfullscreen allow="autoplay"></iframe>
+              </div>
+              <div id="semiTransparentOverlayContainer" class="bg-black-50 absolute top-0 left-0 z-1 w-100 h-100">
+              </div>
+              <div id="textOverlayContainer" class="absolute w-100 h-100 top-0 left-0 z-2">
+                <div class="w-80 h-100 center">
+                  <div class="w-100 h-25"></div>
+                  <div class="w-100 h-50 din-bold f1 white pl4 pt3">W Concept presents The W | ADER Night</div>
+                  <div class="w-100 h-25 din-thin f4 white pl4 pt3">2018 11. 23 FRI
+                      W CONCEPT PRESENT 
+                      THE W | ADER NIGHT</div>  
+                </div>
+              </div>
+            </a>
           </div>
-          <div class="cf glide__slide" style="background: url(http://placekitten.com/g/1280/400) no-repeat center center fixed; background-size: cover;">
-            Urmazing.
-          </div> -->
         </div>
       </div>
     </div>
   </div>
-  <div id="latestNewsSection" class="">
+  <div id="latestNewsSection" class="pv4">
     <div id="latestNewsTitle" class="f4 pv2">Latest News</div>
     <div id="latestNewsSubtitle" class="f5 pv2">This section is for Seoul Community Radio's latest news. Make sure to check them out!</div>
     <div id="latestNewsHorizontalScroller" class="">
@@ -38,114 +79,198 @@
         <div class="slider__track glide__track" data-glide-el="track">
           <div class="slider__slides glide__slides w-100" style="transition: transform 0ms cubic-bezier(0.165, 0.84, 0.44, 1) 0s; transform: translate3d(-478.125px, 0px, 0px);">
             {{ range first 10 (where .Data.Pages "Section" "in" (slice "news")) }}
-              <div class="slider__frame glide__slide w2 mh2">
-                <div id="articleFeaturedImage">
-                    <a href="{{ .URL }}" class="link white dim">
-                      <img src="{{ .Site.BaseURL }}img/{{ .Param "featured_image" }}" class="" alt="image from {{ .Title }}">
-                    </a>
-                </div>
-                <div id="articleTitle" class="din-thin small-caps">
-                  <a href="{{ .URL }}" class="link white dim">
-                    {{ .Title }}
-                  </a>
-                </div>
+            <div class="slider__frame glide__slide w2 mh2">
+              <div id="articleFeaturedImage">
+                <a href="{{ .URL }}" class="link white dim"></a>
+                <img src="{{ .Site.BaseURL }}img/{{ .Param "featured_image" }}" class="" alt="image from {{ .Title }}">
               </div>
+              <div id="articleTitle" class="din-thin small-caps">
+                <a href="{{ .URL }}" class="link white dim">
+                  {{ .Title }}
+                </a>
+              </div>
+            </div>
             {{ end }}
           </div>
         </div>
       </div>
     </div>
-    <div id="emptySpace" class="pv2"></div>
+    <div id="emptySpace" class="pv3"></div>
     <div id="redHorizontalRule" class="bt b--red"></div>
     <div id="emptySpace" class="pv2"></div>
     <div id="residentsSection" class="">
       <div id="residentsTitle" class="f4 pv2">Residents</div>
       <div id="residentsSubtitle" class="f5 pv2">This section is for Seoul Community Radio's latest news. Make sure to check them out.</div>
-      <div id="residentsHorizontalScroller" class="bg-red pv5">
-        
+      <div id="residentsHorizontalScroller" class="">
+        <div id="residentsGlider" class="slider glide glide--ltr glide--carousel glide--swipeable">
+          <div class="slider__track glide__track" data-glide-el="track">
+            <div class="slider__slides glide__slides w-100" style="transition: transform 0ms cubic-bezier(0.165, 0.84, 0.44, 1) 0s; transform: translate3d(-478.125px, 0px, 0px);">
+              {{ range first 10 (index .Site.Taxonomies.group "residents") }}
+              <a href="{{ .URL }}" class="link white dim">
+                <div class="slider__frame glide__slide w2 mh2">
+                  <div id="artistFeaturedImage" class="aspect-ratio aspect-ratio--4x3">
+                    
+                    <img src="{{ .Site.BaseURL }}img/{{ .Param "artist-featured-image" }}" class="aspect-ratio--object" alt="image from {{ .Title }}">
+                  </div>
+                  <div id="artistTitle" class="din-bold small-caps pv2">
+                    
+                    {{ .Title }}
+                    
+                  </div>
+                  <div id="artistDescription" class="din-thin small-caps">
+                    
+                    {{ truncate 240 (.Param "artist-description") }}
+                    
+                  </div>
+                </div>
+              </a>
+              {{ end }}
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div id="localGuestsSection" class="">
+    <div id="localGuestsSection" class="pv3">
       <div id="localGuestsTitle" class="f4 pv2">Local Guests</div>
       <div id="localGuestsSubtitle" class="f5 pv2">This section is for Seoul Community Radio's latest news. Make sure to check them out.</div>
-      <div id="localGuestsHorizontalScroller" class="bg-red pv5"></div>
+      <div id="localGuestsHorizontalScroller" class="">
+        <div id="localGuestsGlider" class="slider glide glide--ltr glide--carousel glide--swipeable">
+          <div class="slider__track glide__track" data-glide-el="track">
+            <div class="slider__slides glide__slides w-100" style="transition: transform 0ms cubic-bezier(0.165, 0.84, 0.44, 1) 0s; transform: translate3d(-478.125px, 0px, 0px);">
+              {{ range first 10 (index .Site.Taxonomies.group "local-guests") }}
+              <a href="{{ .URL }}" class="link white dim">
+                <div class="slider__frame glide__slide w2 mh2">
+                  <div id="artistFeaturedImage" class="aspect-ratio aspect-ratio--4x3">
+                    
+                    <img src="{{ .Site.BaseURL }}img/{{ .Param "artist-featured-image" }}" class="aspect-ratio--object" alt="image from {{ .Title }}">
+                  </div>
+                  <div id="artistTitle" class="din-bold small-caps pv2">
+                    
+                    {{ .Title }}
+                    
+                  </div>
+                  <div id="artistDescription" class="din-thin small-caps">
+                    
+                    {{ truncate 240 (.Param "artist-description") }}
+                    
+                  </div>
+                </div>
+              </a>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div id="worldwideGuestsSection" class="">
+    <div id="worldwideGuestsSection" class="pv3">
       <div id="worldwideGuestsTitle" class="f4 pv2">Worldwide Guests</div>
       <div id="worldwideGuestsSubtitle" class="f5 pv2">This section is for Seoul Community Radio's latest news. Make sure to check them out.</div>
-      <div id="worldwideGuestsHorizontalScroller" class="bg-red pv6"></div>
-    </div>
-    <div id="separator" class="pv4"></div>
-    <div id="bannerRegion" class="bg-red pa5"></div>
-  </div>
-  
-  <div class="pv7">
-    
-  </div>
-  
-  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-    {{ .Content }}
-  </article>
-  
-  {{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of pages. */}}
-  {{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
-  {{/* Create a variable with that section to use in multiple places. */}}
-  {{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
-  {{/* Check to see if the section is defined for ranging through it */}}
-  {{ $section_count := len $section }}
-  {{ if ge $section_count 1 }}
-  {{/* Derive the section name  */}}
-  {{ $section_name := index (.Site.Params.mainSections) 0 }}
-  
-  <div class="pa3 pa4-ns w-100 w-70-ns center">
-    {{/* Use $section_name to get the section title. Use "with" to only show it if it exists */}}
-    {{ with .Site.GetPage "section" $section_name }}
-    <h1 class="flex-none">
-      Recent {{ .Title }}
-    </h1>
-    {{ end }}
-    
-    {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
-    
-    <section class="w-100 mw8">
-      {{/* Range through the first $n_posts items of the section */}}
-      {{ range (first $n_posts $section) }}
-      <div class="relative w-100 mb4">
-        {{ partial "summary-with-image.html" . }}
+      <div id="worldwideGuestsHorizontalScroller" class="">
+        <div id="worldwideGuestsGlider" class="slider glide glide--ltr glide--carousel glide--swipeable">
+          <div class="slider__track glide__track" data-glide-el="track">
+            <div class="slider__slides glide__slides w-100" style="transition: transform 0ms cubic-bezier(0.165, 0.84, 0.44, 1) 0s; transform: translate3d(-478.125px, 0px, 0px);">
+              {{ range first 10 (index .Site.Taxonomies.group "worldwide") }}
+              <a href="{{ .URL }}" class="link white dim">
+                <div class="slider__frame glide__slide w2 mh2">
+                  <div id="artistFeaturedImage" class="aspect-ratio aspect-ratio--4x3">
+                    
+                    <img src="{{ .Site.BaseURL }}img/{{ .Param "artist-featured-image" }}" class="aspect-ratio--object" alt="image from {{ .Title }}">
+                  </div>
+                  <div id="artistTitle" class="din-bold small-caps pv2">
+                    
+                    {{ .Title }}
+                    
+                  </div>
+                  <div id="artistDescription" class="din-thin small-caps">
+                    
+                    {{ truncate 240 (.Param "artist-description") }}
+                    
+                  </div>
+                </div>
+              </a>
+              {{ end }}
+            </div>
+          </div>
+        </div>
       </div>
-      {{ end }}
-    </section>
-    
-    {{ if ge $section_count (add $n_posts 1) }}
-    <section class="w-100">
-      <h1 class="f3">More</h1>
-      {{/* Now, range through the next four after the initial $n_posts items. Nest the requirements, "after" then "first" on the outside */}}
-      {{ range (first 4 (after $n_posts $section))  }}
-      <h2 class="f5 fw4 mb4 dib mr3">
-        <a href="{{ .URL }}" class="link black dim">
-          {{ .Title }}
-        </a>
-      </h2>
-      {{ end }}
-      
-      {{/* As above, Use $section_name to get the section title, and URL. Use "with" to only show it if it exists */}}
-      {{ with .Site.GetPage "section" $section_name }}
-      <a href="{{ .URL }}" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All {{.Title }}</a>
-      {{ end }}
-    </section>
-    {{ end }}
-    
+    </div>
+    <div id="separator" class="pv3"></div>
+    <div id="bannerRegion" class="pv3 center tc">
+      <a href="" class="link dim white">
+        <img src="http://placekitten.com/g/728/90">
+      </a>
+    </div>
   </div>
   
   <script>
     var glide = new Glide('#intro', {
       type: 'carousel',
-      autoplay: 4000,
+      autoplay: 7500,
       perView: 1,
       focusAt: 'center',
+    });
+    
+    glide.mount();
+    
+    var residentsGlider = new Glide('#residentsGlider', {
+      type: 'carousel',
+      perView: 5,
+      autoplay: 4000,
+      focusAt: 'center',
+      breakpoints: {
+        1200: {
+          perView: 4
+        },
+        800: {
+          perView: 3
+        },
+        480: {
+          perView: 1
+        }
+      }
+    });
+    
+    residentsGlider.mount();
+    
+    var worldwideGuestsGlider = new Glide('#worldwideGuestsGlider', {
+      type: 'carousel',
+      perView: 5,
+      autoplay: 4000,
+      focusAt: 'center',
+      breakpoints: {
+        1200: {
+          perView: 4
+        },
+        800: {
+          perView: 3
+        },
+        480: {
+          perView: 1
+        }
+      }
+    });
+    
+    worldwideGuestsGlider.mount();
+    
+    var localGuestsGlider = new Glide('#localGuestsGlider', {
+      type: 'carousel',
+      perView: 5,
+      autoplay: 4000,
+      focusAt: 'center',
+      breakpoints: {
+        1200: {
+          perView: 4
+        },
+        800: {
+          perView: 3
+        },
+        480: {
+          perView: 1
+        }
+      }
     })
     
-    glide.mount()
+    localGuestsGlider.mount()
     
     var newsGlider = new Glide('#newsGlider', {
       type: 'carousel',
@@ -184,6 +309,5 @@
     });
   </script>
   
-  {{ end }}
   {{ end }}
   
