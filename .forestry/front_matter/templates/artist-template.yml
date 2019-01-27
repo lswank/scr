@@ -108,3 +108,5 @@ fields:
     the Daily Motion Playlist and Daily Motion Video fields are left blank, no video
     will appear. If only one is present, that video or playlist will appear. If both
     are present, only the playlist video embed will appear.
+pages:
+- content/artist/apachi.ko.md
