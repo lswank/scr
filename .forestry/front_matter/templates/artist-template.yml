@@ -1,0 +1,110 @@
+---
+label: Artist Template
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+  description: This is the title of this page which is used in several different places
+    in the website and in search engines.
+  config:
+    required: true
+- name: artist-name
+  label: Artist name
+  type: text
+  hidden: false
+  default: ''
+  description: This is the full name of the artist, and which should usually also
+    be the title of the page. It is used in several different places in the website
+    and in search engines.
+  config:
+    required: true
+- name: artist-description
+  label: Artist description
+  type: textarea
+  hidden: false
+  default: ''
+  description: This is a sentence or two describing the artist. Up to the first 20
+    words of this description are included in various places on the website.
+- name: artist-featured-image
+  label: Artist featured image
+  type: file
+  hidden: false
+  default: ''
+  description: The featured image of the artist is used in tiles all across the website
+    and is the main banner image on the artist page. Smaller is better, because it
+    keeps the website fast. this image show be much less than 1 MB.
+  config:
+    maxSize: '1'
+- name: artist-facebook
+  label: Artist facebook
+  type: text
+  hidden: false
+  default: ''
+  description: This is the user's Facebook account name. https://www.facebook.com/ACCOUNTNAME/.
+    If left blank, no Facebook link appears on the artist page.
+- name: artist-twitter
+  label: Artist twitter
+  type: text
+  hidden: false
+  default: ''
+  description: This is the user's Twitter account name. https://www.twitter.com/ACCOUNTNAME/.
+    If left blank, no Twitter link appears on the artist page.
+- name: artist-instagram
+  label: Artist instagram
+  type: text
+  hidden: false
+  default: ''
+  description: This is the user's Instagram account name. https://www.instagram.com/ACCOUNTNAME/.
+    If left blank, no Instagram link appears on the artist page.
+- name: artist-soundcloud
+  label: Artist soundcloud
+  type: text
+  hidden: false
+  default: ''
+  description: This is the user's Soundcloud account name. If left blank, no Soundcloud
+    link appears on the artist page.
+- name: artist-youtubeChannelID
+  label: Artist YouTube
+  type: text
+  hidden: false
+  default: ''
+  description: This is the YouTube channel ID of the artist. If left blank, no YouTube
+    link appears on the artist page.
+- name: images
+  label: Artist Gallery Images
+  type: image_gallery
+  hidden: false
+  default: ''
+  description: These images appear at the bottom of each artist page.
+- name: group
+  label: Group
+  type: text
+  hidden: false
+  default: ''
+- name: genres
+  label: Genres
+  type: list
+  hidden: false
+  default: ''
+- name: daily-motion-playlist
+  label: Daily motion playlist
+  type: text
+  hidden: false
+  default: ''
+  description: This is the Daily Motion Playlist ID of the playlist containing this
+    artist's videos. If both the Daily Motion Playlist and Daily Motion Video fields
+    are left blank, no video will appear. If only one is present, that video or playlist
+    will appear. If both are present, only the playlist video embed will appear.
+- name: daily-motion-video
+  label: Daily motion video
+  type: text
+  hidden: false
+  default: ''
+  description: This is the Daily Motion Video ID of a video for this artist. If both
+    the Daily Motion Playlist and Daily Motion Video fields are left blank, no video
+    will appear. If only one is present, that video or playlist will appear. If both
+    are present, only the playlist video embed will appear.
