@@ -1,5 +1,5 @@
 ---
-title: Live from Blue Marble Hall
+title: 'SCR Live Stream '
 date: 2018-12-19 09:48:41 +0000
 type: live
 channelid: x6u83op
