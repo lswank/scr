@@ -1,90 +1,189 @@
 {{ define "main" }}
- 
-<div id="mainPageContent" class="pa3 white">
-  <div id="horizontalScrollingBannerRegion" class="bg-yellow pv6">
 
+<!-- Required Core stylesheet -->
+<link rel="stylesheet" href="../glide.core.css">
+
+<!-- Optional Theme stylesheet -->
+<link rel="stylesheet" href="../glide.theme.css">
+
+<div id="mainPageContent" class="pa3 white">
+  <div id="horizontalScrollingBannerRegion" class="bg-yellow">
+    <div id="intro" class="h5 glide bg-red">
+      <div data-glide-el="track" class="h-inherit glide__track">
+        <div class="h-inherit glide__slides">
+          <div class="glide__slide aspect-ratio aspect-ratio--4x3">
+            <div class="aspect-ratio--object overflow-hidden bg-center" style="background:url(http://placekitten.com/g/1024/256);">
+              Schlide One
+            </div>
+          </div>
+          <!-- <div class="glide__slide aspect-ratio aspect-ratio--1x1">
+            <div class="aspect-ratio--object overflow-hidden bg-center" style="background:url(http://placekitten.com/g/1024/256);">
+              Schlide Two
+            </div>
+          </div>
+          <div id="player" class="glide__slide">
+          </div>
+          <div class="cf glide__slide" style="background: url(http://placekitten.com/g/1280/400) no-repeat center center fixed; background-size: cover;">
+            Urmazing.
+          </div> -->
+        </div>
+      </div>
+    </div>
   </div>
   <div id="latestNewsSection" class="">
     <div id="latestNewsTitle" class="f4 pv2">Latest News</div>
     <div id="latestNewsSubtitle" class="f5 pv2">This section is for Seoul Community Radio's latest news. Make sure to check them out!</div>
-    <div id="latestNewsHorizontalScroller" class="bg-red pv5"></div>
-  </div>
-  <div id="firstSpace" class=""></div>
-  <div id="firstRedHorizontalRule" class=""></div>
-  <div id="residentsSection" class="">
-    <div id="residentsTitle" class="f4 pv2">Residents</div>
-    <div id="residentsSubtitle" class="f5 pv2">This section is for Seoul Community Radio's latest news. Make sure to check them out.</div>
-    <div id="residentsHorizontalScroller" class="bg-red pv5"></div>
-  </div>
-  <div id="localGuestsSection" class="">
-    <div id="localGuestsTitle" class="f4 pv2">Local Guests</div>
-    <div id="localGuestsSubtitle" class="f5 pv2">This section is for Seoul Community Radio's latest news. Make sure to check them out.</div>
-    <div id="localGuestsHorizontalScroller" class="bg-red pv5"></div>
-  </div>
-  <div id="worldwideGuestsSection" class="">
+    <div id="latestNewsHorizontalScroller" class="">
+      <div id="newsGlider" class="slider glide glide--ltr glide--carousel glide--swipeable">
+        <div class="slider__track glide__track" data-glide-el="track">
+          <div class="slider__slides glide__slides w-100" style="transition: transform 0ms cubic-bezier(0.165, 0.84, 0.44, 1) 0s; transform: translate3d(-478.125px, 0px, 0px);">
+            {{ range first 10 (where .Data.Pages "Section" "in" (slice "news")) }}
+              <div class="slider__frame glide__slide w2 mh2">
+                <div id="articleFeaturedImage">
+                    <a href="{{ .URL }}" class="link white dim">
+                      <img src="{{ .Site.BaseURL }}img/{{ .Param "featured_image" }}" class="" alt="image from {{ .Title }}">
+                    </a>
+                </div>
+                <div id="articleTitle" class="din-thin small-caps">
+                  <a href="{{ .URL }}" class="link white dim">
+                    {{ .Title }}
+                  </a>
+                </div>
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="emptySpace" class="pv2"></div>
+    <div id="redHorizontalRule" class="bt b--red"></div>
+    <div id="emptySpace" class="pv2"></div>
+    <div id="residentsSection" class="">
+      <div id="residentsTitle" class="f4 pv2">Residents</div>
+      <div id="residentsSubtitle" class="f5 pv2">This section is for Seoul Community Radio's latest news. Make sure to check them out.</div>
+      <div id="residentsHorizontalScroller" class="bg-red pv5">
+        
+      </div>
+    </div>
+    <div id="localGuestsSection" class="">
+      <div id="localGuestsTitle" class="f4 pv2">Local Guests</div>
+      <div id="localGuestsSubtitle" class="f5 pv2">This section is for Seoul Community Radio's latest news. Make sure to check them out.</div>
+      <div id="localGuestsHorizontalScroller" class="bg-red pv5"></div>
+    </div>
+    <div id="worldwideGuestsSection" class="">
       <div id="worldwideGuestsTitle" class="f4 pv2">Worldwide Guests</div>
       <div id="worldwideGuestsSubtitle" class="f5 pv2">This section is for Seoul Community Radio's latest news. Make sure to check them out.</div>
       <div id="worldwideGuestsHorizontalScroller" class="bg-red pv6"></div>
-  </div>
-  <div id="separator" class="pv4"></div>
-  <div id="bannerRegion" class="bg-red pa5"></div>
-</div>
-
-<div class="pv7">
-  
-</div>
-
-<article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-  {{ .Content }}
-</article>
-{{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of pages. */}}
-{{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
-{{/* Create a variable with that section to use in multiple places. */}}
-{{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
-{{/* Check to see if the section is defined for ranging through it */}}
-{{ $section_count := len $section }}
-{{ if ge $section_count 1 }}
-{{/* Derive the section name  */}}
-{{ $section_name := index (.Site.Params.mainSections) 0 }}
-
-<div class="pa3 pa4-ns w-100 w-70-ns center">
-  {{/* Use $section_name to get the section title. Use "with" to only show it if it exists */}}
-  {{ with .Site.GetPage "section" $section_name }}
-  <h1 class="flex-none">
-    Recent {{ .Title }}
-  </h1>
-  {{ end }}
-  
-  {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
-  
-  <section class="w-100 mw8">
-    {{/* Range through the first $n_posts items of the section */}}
-    {{ range (first $n_posts $section) }}
-    <div class="relative w-100 mb4">
-      {{ partial "summary-with-image.html" . }}
     </div>
-    {{ end }}
-  </section>
+    <div id="separator" class="pv4"></div>
+    <div id="bannerRegion" class="bg-red pa5"></div>
+  </div>
   
-  {{ if ge $section_count (add $n_posts 1) }}
-  <section class="w-100">
-    <h1 class="f3">More</h1>
-    {{/* Now, range through the next four after the initial $n_posts items. Nest the requirements, "after" then "first" on the outside */}}
-    {{ range (first 4 (after $n_posts $section))  }}
-    <h2 class="f5 fw4 mb4 dib mr3">
-      <a href="{{ .URL }}" class="link black dim">
-        {{ .Title }}
-      </a>
-    </h2>
+  <div class="pv7">
+    
+  </div>
+  
+  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+    {{ .Content }}
+  </article>
+  
+  {{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of pages. */}}
+  {{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
+  {{/* Create a variable with that section to use in multiple places. */}}
+  {{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
+  {{/* Check to see if the section is defined for ranging through it */}}
+  {{ $section_count := len $section }}
+  {{ if ge $section_count 1 }}
+  {{/* Derive the section name  */}}
+  {{ $section_name := index (.Site.Params.mainSections) 0 }}
+  
+  <div class="pa3 pa4-ns w-100 w-70-ns center">
+    {{/* Use $section_name to get the section title. Use "with" to only show it if it exists */}}
+    {{ with .Site.GetPage "section" $section_name }}
+    <h1 class="flex-none">
+      Recent {{ .Title }}
+    </h1>
     {{ end }}
     
-    {{/* As above, Use $section_name to get the section title, and URL. Use "with" to only show it if it exists */}}
-    {{ with .Site.GetPage "section" $section_name }}
-    <a href="{{ .URL }}" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All {{.Title }}</a>
+    {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
+    
+    <section class="w-100 mw8">
+      {{/* Range through the first $n_posts items of the section */}}
+      {{ range (first $n_posts $section) }}
+      <div class="relative w-100 mb4">
+        {{ partial "summary-with-image.html" . }}
+      </div>
+      {{ end }}
+    </section>
+    
+    {{ if ge $section_count (add $n_posts 1) }}
+    <section class="w-100">
+      <h1 class="f3">More</h1>
+      {{/* Now, range through the next four after the initial $n_posts items. Nest the requirements, "after" then "first" on the outside */}}
+      {{ range (first 4 (after $n_posts $section))  }}
+      <h2 class="f5 fw4 mb4 dib mr3">
+        <a href="{{ .URL }}" class="link black dim">
+          {{ .Title }}
+        </a>
+      </h2>
+      {{ end }}
+      
+      {{/* As above, Use $section_name to get the section title, and URL. Use "with" to only show it if it exists */}}
+      {{ with .Site.GetPage "section" $section_name }}
+      <a href="{{ .URL }}" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All {{.Title }}</a>
+      {{ end }}
+    </section>
     {{ end }}
-  </section>
+    
+  </div>
+  
+  <script>
+    var glide = new Glide('#intro', {
+      type: 'carousel',
+      autoplay: 4000,
+      perView: 1,
+      focusAt: 'center',
+    })
+    
+    glide.mount()
+    
+    var newsGlider = new Glide('#newsGlider', {
+      type: 'carousel',
+      perView: 3,
+      autoplay: 4000,
+      focusAt: 'center',
+      breakpoints: {
+        800: {
+          perView: 2
+        },
+        480: {
+          perView: 1
+        }
+      }
+    })
+    
+    newsGlider.mount()
+  </script>
+  
+  <script src="https://api.dmcdn.net/all.js"></script>
+  <script>
+    var player = DM.player(document.getElementById("player"), {
+      video: "xwr14q",
+      width: "100%",
+      height: "100%",
+      params: {
+        autoplay: true,
+        mute: true,
+        controls: false, 
+        quality: 380, 
+        'queue-enable': false, 
+        'sharing-enable': false, 
+        'ui-logo': false, 
+        'ui-start-screen-info': false
+      }
+    });
+  </script>
+  
+  {{ end }}
   {{ end }}
   
-</div>
-{{ end }}
-{{ end }}

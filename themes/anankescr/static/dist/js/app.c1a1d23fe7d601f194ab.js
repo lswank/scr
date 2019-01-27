@@ -6,9 +6,9 @@
 /******/ 	function __webpack_require__(moduleId) {
 /******/
 /******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId]) {
+/******/ 		if(installedModules[moduleId])
 /******/ 			return installedModules[moduleId].exports;
-/******/ 		}
+/******/
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = installedModules[moduleId] = {
 /******/ 			i: moduleId,
@@ -70,7 +70,7 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: ENOENT: no such file or directory, open '/Users/lorenzo/Development/scr/themes/anankescr/src/node_modules/buffer/index.js'\n    at runLoaders (/Users/lorenzo/Development/scr/themes/anankescr/src/node_modules/webpack/lib/NormalModule.js:192:19)\n    at /Users/lorenzo/Development/scr/themes/anankescr/src/node_modules/loader-runner/lib/LoaderRunner.js:364:11\n    at /Users/lorenzo/Development/scr/themes/anankescr/src/node_modules/loader-runner/lib/LoaderRunner.js:200:19\n    at /Users/lorenzo/Development/scr/themes/anankescr/src/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:62:14\n    at process._tickCallback (internal/process/next_tick.js:61:11)");
 
 /***/ }),
 /* 1 */
