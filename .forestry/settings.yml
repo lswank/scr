@@ -19,6 +19,8 @@ sections:
   label: Artist
   create: all
   match: "**/*"
+  templates:
+  - artist-template
 upload_dir: static/img
 public_path: "/img"
 front_matter_path: ''
