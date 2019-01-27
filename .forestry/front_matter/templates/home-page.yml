@@ -1,0 +1,145 @@
+---
+label: Home Page
+hide_body: 
+is_partial: 
+fields:
+- name: first_slide_title
+  label: First slide title
+  type: text
+  hidden: false
+  default: ''
+- name: first_slide_subtitle
+  label: First slide subtitle
+  type: textarea
+  hidden: false
+  default: ''
+- name: first_slide_dailymotion_video_code
+  label: First slide dailymotion video code
+  type: text
+  hidden: false
+  default: ''
+- name: first_slide_image
+  label: First slide image
+  type: text
+  hidden: false
+  default: ''
+- name: first_slide_link_url
+  label: First slide link url
+  type: text
+  hidden: false
+  default: ''
+- name: second_slide_title
+  label: Second slide title
+  type: text
+  hidden: false
+  default: ''
+- name: second_slide_subtitle
+  label: Second slide subtitle
+  type: text
+  hidden: false
+  default: ''
+- name: second_slide_dailymotion_video_code
+  label: Second slide dailymotion video code
+  type: text
+  hidden: false
+  default: ''
+- name: second_slide_image
+  label: Second slide image
+  type: text
+  hidden: false
+  default: ''
+- name: second_slide_link_url
+  label: Second slide link url
+  type: text
+  hidden: false
+  default: ''
+- name: third_slide_title
+  label: Third slide title
+  type: text
+  hidden: false
+  default: ''
+- name: third_slide_subtitle
+  label: Third slide subtitle
+  type: textarea
+  hidden: false
+  default: ''
+- name: third_slide_link_url
+  label: Third slide link url
+  type: text
+  hidden: false
+  default: ''
+- name: advertisingBannerImage
+  label: Advertisingbannerimage
+  type: text
+  hidden: false
+  default: ''
+- name: advertisingBannerURL
+  label: Advertisingbannerurl
+  type: text
+  hidden: false
+  default: ''
+- name: latestNewsTitle
+  label: Latestnewstitle
+  type: text
+  hidden: false
+  default: ''
+- name: latestNewsSubtitle
+  label: Latestnewssubtitle
+  type: text
+  hidden: false
+  default: ''
+- name: residentsTitle
+  label: Residentstitle
+  type: text
+  hidden: false
+  default: ''
+- name: residentsSubtitle
+  label: Residentssubtitle
+  type: text
+  hidden: false
+  default: ''
+- name: localGuestsTitle
+  label: Localgueststitle
+  type: text
+  hidden: false
+  default: ''
+- name: localGuestsSubtitle
+  label: Localguestssubtitle
+  type: text
+  hidden: false
+  default: ''
+- name: worldwideGuestsTitle
+  label: Worldwidegueststitle
+  type: text
+  hidden: false
+  default: ''
+- name: worldwideGuestsSubtitle
+  label: Worldwideguestssubtitle
+  type: text
+  hidden: false
+  default: ''
+- name: videoSliderTime
+  label: Videoslidertime
+  type: text
+  hidden: false
+  default: ''
+- name: newsSliderTime
+  label: Newsslidertime
+  type: text
+  hidden: false
+  default: ''
+- name: residentsSliderTime
+  label: Residentsslidertime
+  type: text
+  hidden: false
+  default: ''
+- name: worldwideGuestSliderTime
+  label: Worldwideguestslidertime
+  type: text
+  hidden: false
+  default: ''
+- name: localGuestsSliderTime
+  label: Localguestsslidertime
+  type: text
+  hidden: false
+  default: ''
