@@ -6,63 +6,83 @@
 <!-- Optional Theme stylesheet -->
 <link rel="stylesheet" href="../glide.theme.css">
 
+{{ $firstDailyMotionVideoCode := (.Param "first_slide_dailymotion_video_code") }}
+{{ $secondDailyMotionVideoCode := (.Param "second_slide_dailymotion_video_code") }}
+{{ $thirdDailyMotionVideoCode := (.Param "third_slide_dailymotion_video_code") }}
+
 <div id="mainPageContent" class="pa3 white">
   <div id="horizontalScrollingBannerRegion" class="">
     <div id="intro" class="glide">
       <div data-glide-el="track" class="glide__track">
         <div class="glide__slides ">
           <div class="glide__slide relative">
-            <a class="link white dim" href="">
+            <a class="link white dim" href={{ (.Param "first_slide_link_url") }}>
+              {{ if .Param "first_slide_dailymotion_video_code" }}
               <div id="videoContainer" class="relative z-0">
                 <iframe frameborder="0" class="vh-50 w-100"
-                src="//www.dailymotion.com/embed/video/x6pwp5k?autoplay=1&mute=1&controls=false&quality=240&queue-enable=false&ui-logo=false&ui-start-screen-info=false"
+                src={{ printf "http://www.dailymotion.com/embed/video/%s?autoplay=1&mute=1&controls=false&quality=240&queue-enable=false&ui-logo=false&ui-start-screen-info=false" $firstDailyMotionVideoCode }}
                 allowfullscreen allow="autoplay"></iframe>
               </div>
+              {{ else }}
+              <div id="videoContainer" class="relative z-0">
+                <img src={{ (.Param "first_slide_image") | default "http://placekitten.com/g/728/90" }} alt="" class="vh-50 w-100">
+              </div>
+              {{ end }}
               <div id="semiTransparentOverlayContainer" class="bg-black-50 absolute top-0 left-0 z-1 w-100 h-100">
               </div>
               <div id="textOverlayContainer" class="absolute w-100 h-100 top-0 left-0 z-2">
                 <div class="w-80 h-100 center">
                   <div class="w-100 h-25"></div>
-                  <div class="w-100 h-50 din-bold f1 white pl4 pt3">Yaeji [NYC]</div>
-                  <div class="w-100 h-25 din-thin f4 white pl4 pt3">Here is some subtitle text that you can change in the content management interface that I have invited you to. You can change this text, where it links, the video behind this, now quickly it rotates, and all of the other slides.</div>  
+                  <div class="w-100 h-50 din-bold f1 white pl4 pt3">{{ .Param "first_slide_title" }}</div>
+                  <div class="w-100 h-25 din-thin f4 white pl4 pt3">{{ .Param "first_slide_subtitle" }}</div>  
                 </div>
               </div>
             </a>
           </div>
           <div class="glide__slide relative">
-            <a class="link white dim" href="https://www.dailymotion.com/video/x70etv8">
+            <a class="link white dim" href={{ (.Param "second_slide_link_url") }}>
+              {{ if .Param "second_slide_dailymotion_video_code" }}
               <div id="videoContainer" class="relative z-0">
                 <iframe frameborder="0" class="vh-50 w-100"
-                src="//www.dailymotion.com/embed/video/x70etv8?autoplay=1&mute=1&controls=false&quality=240&queue-enable=false&ui-logo=false&ui-start-screen-info=false"
+                src={{ printf "http://www.dailymotion.com/embed/video/%s?autoplay=1&mute=1&controls=false&quality=240&queue-enable=false&ui-logo=false&ui-start-screen-info=false" $secondDailyMotionVideoCode }}
                 allowfullscreen allow="autoplay"></iframe>
               </div>
+              {{ else }}
+              <div id="videoContainer" class="relative z-0">
+                <img src={{ (.Param "second_slide_image") | default "http://placekitten.com/g/728/90" }} alt="" class="vh-50 w-100">
+              </div>
+              {{ end }}
               <div id="semiTransparentOverlayContainer" class="bg-black-50 absolute top-0 left-0 z-1 w-100 h-100">
               </div>
               <div id="textOverlayContainer" class="absolute w-100 h-100 top-0 left-0 z-2">
                 <div class="w-80 h-100 center">
                   <div class="w-100 h-25"></div>
-                  <div class="w-100 h-50 din-bold f1 white pl4 pt3">2018 Highlight Reel</div>
-                  <div class="w-100 h-25 din-thin f4 white pl4 pt3">Thanks to all our listeners and supporters this past year. Watch out for some big surprises in 2019! </div>  
+                  <div class="w-100 h-50 din-bold f1 white pl4 pt3">{{ .Param "second_slide_title" }}</div>
+                  <div class="w-100 h-25 din-thin f4 white pl4 pt3">{{ .Param "second_slide_subtitle" }}</div>  
                 </div>
               </div>
             </a>
           </div>
           <div class="glide__slide relative">
-            <a class="link white dim" href="https://www.dailymotion.com/video/x6xom6j">
+            <a class="link white dim" href={{ (.Param "third_slide_link_url") }}>
+              {{ if .Param "third_slide_dailymotion_video_code" }}
               <div id="videoContainer" class="relative z-0">
                 <iframe frameborder="0" class="vh-50 w-100"
-                src="//www.dailymotion.com/embed/video/x6xom6j?autoplay=1&mute=1&controls=false&quality=240&queue-enable=false&ui-logo=false&ui-start-screen-info=false"
+                src={{ printf "http://www.dailymotion.com/embed/video/%s?autoplay=1&mute=1&controls=false&quality=240&queue-enable=false&ui-logo=false&ui-start-screen-info=false" $thirdDailyMotionVideoCode }}
                 allowfullscreen allow="autoplay"></iframe>
               </div>
+              {{ else }}
+              <div id="videoContainer" class="relative z-0">
+                <img src={{ (.Param "third_slide_image") | default "http://placekitten.com/g/728/90" }} alt="" class="vh-50 w-100">
+              </div>
+              {{ end }}
               <div id="semiTransparentOverlayContainer" class="bg-black-50 absolute top-0 left-0 z-1 w-100 h-100">
               </div>
               <div id="textOverlayContainer" class="absolute w-100 h-100 top-0 left-0 z-2">
                 <div class="w-80 h-100 center">
                   <div class="w-100 h-25"></div>
-                  <div class="w-100 h-50 din-bold f1 white pl4 pt3">W Concept presents The W | ADER Night</div>
-                  <div class="w-100 h-25 din-thin f4 white pl4 pt3">2018 11. 23 FRI
-                      W CONCEPT PRESENT 
-                      THE W | ADER NIGHT</div>  
+                  <div class="w-100 h-50 din-bold f1 white pl4 pt3">{{ .Param "third_slide_title" }}</div>
+                  <div class="w-100 h-25 din-thin f4 white pl4 pt3">{{ .Param "third_slide_subtitle" }}</div>  
                 </div>
               </div>
             </a>
@@ -72,8 +92,8 @@
     </div>
   </div>
   <div id="latestNewsSection" class="pv4">
-    <div id="latestNewsTitle" class="f4 pv2">Latest News</div>
-    <div id="latestNewsSubtitle" class="f5 pv2">This section is for Seoul Community Radio's latest news. Make sure to check them out!</div>
+    <div id="latestNewsTitle" class="f4 pv2">{{ (.Param "latestNewsTitle") }}</div>
+    <div id="latestNewsSubtitle" class="f5 pv2">{{ (.Param "latestNewsSubtitle") }}</div>
     <div id="latestNewsHorizontalScroller" class="">
       <div id="newsGlider" class="slider glide glide--ltr glide--carousel glide--swipeable">
         <div class="slider__track glide__track" data-glide-el="track">
@@ -99,8 +119,8 @@
     <div id="redHorizontalRule" class="bt b--red"></div>
     <div id="emptySpace" class="pv2"></div>
     <div id="residentsSection" class="">
-      <div id="residentsTitle" class="f4 pv2">Residents</div>
-      <div id="residentsSubtitle" class="f5 pv2">This section is for Seoul Community Radio's latest news. Make sure to check them out.</div>
+      <div id="residentsTitle" class="f4 pv2">{{ (.Param "residentsTitle") }}</div>
+      <div id="residentsSubtitle" class="f5 pv2">{{ (.Param "residentsSubtitle") }}</div>
       <div id="residentsHorizontalScroller" class="">
         <div id="residentsGlider" class="slider glide glide--ltr glide--carousel glide--swipeable">
           <div class="slider__track glide__track" data-glide-el="track">
@@ -131,8 +151,8 @@
       </div>
     </div>
     <div id="localGuestsSection" class="pv3">
-      <div id="localGuestsTitle" class="f4 pv2">Local Guests</div>
-      <div id="localGuestsSubtitle" class="f5 pv2">This section is for Seoul Community Radio's latest news. Make sure to check them out.</div>
+      <div id="localGuestsTitle" class="f4 pv2">{{ (.Param "localGuestsTitle") }}</div>
+      <div id="localGuestsSubtitle" class="f5 pv2">{{ (.Param "localGuestsSubtitle") }}</div>
       <div id="localGuestsHorizontalScroller" class="">
         <div id="localGuestsGlider" class="slider glide glide--ltr glide--carousel glide--swipeable">
           <div class="slider__track glide__track" data-glide-el="track">
@@ -163,8 +183,8 @@
       </div>
     </div>
     <div id="worldwideGuestsSection" class="pv3">
-      <div id="worldwideGuestsTitle" class="f4 pv2">Worldwide Guests</div>
-      <div id="worldwideGuestsSubtitle" class="f5 pv2">This section is for Seoul Community Radio's latest news. Make sure to check them out.</div>
+      <div id="worldwideGuestsTitle" class="f4 pv2">{{ (.Param "worldwideGuestsTitle") }}</div>
+      <div id="worldwideGuestsSubtitle" class="f5 pv2">{{ (.Param "worldwideGuestsSubtitle") }}</div>
       <div id="worldwideGuestsHorizontalScroller" class="">
         <div id="worldwideGuestsGlider" class="slider glide glide--ltr glide--carousel glide--swipeable">
           <div class="slider__track glide__track" data-glide-el="track">
@@ -195,17 +215,19 @@
       </div>
     </div>
     <div id="separator" class="pv3"></div>
+    {{ if .Param "advertisingBannerImage" }}
     <div id="bannerRegion" class="pv3 center tc">
-      <a href="" class="link dim white">
-        <img src="http://placekitten.com/g/728/90">
+      <a href={{ ( .Param "advertisingBannerURL") }} class="link dim white">
+        <img src={{ (.Param "advertisingBannerImage") }}>
       </a>
     </div>
+    {{ end }}
   </div>
   
   <script>
     var glide = new Glide('#intro', {
       type: 'carousel',
-      autoplay: 7500,
+      autoplay: {{ (.Param "videoSliderTime") }},
       perView: 1,
       focusAt: 'center',
     });
@@ -215,7 +237,7 @@
     var residentsGlider = new Glide('#residentsGlider', {
       type: 'carousel',
       perView: 5,
-      autoplay: 4000,
+      autoplay: {{ (.Param "residentsSliderTime") }},
       focusAt: 'center',
       breakpoints: {
         1200: {
@@ -235,7 +257,7 @@
     var worldwideGuestsGlider = new Glide('#worldwideGuestsGlider', {
       type: 'carousel',
       perView: 5,
-      autoplay: 4000,
+      autoplay: {{ (.Param "worldwideGuestSliderTime") }},
       focusAt: 'center',
       breakpoints: {
         1200: {
@@ -255,7 +277,7 @@
     var localGuestsGlider = new Glide('#localGuestsGlider', {
       type: 'carousel',
       perView: 5,
-      autoplay: 4000,
+      autoplay: {{ (.Param "localGuestsSliderTime") }},
       focusAt: 'center',
       breakpoints: {
         1200: {
@@ -275,7 +297,7 @@
     var newsGlider = new Glide('#newsGlider', {
       type: 'carousel',
       perView: 3,
-      autoplay: 4000,
+      autoplay: {{ (.Param "newsSliderTime") }},
       focusAt: 'center',
       breakpoints: {
         800: {
