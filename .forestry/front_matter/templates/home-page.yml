@@ -1,145 +1,221 @@
 ---
 label: Home Page
-hide_body: 
-is_partial: 
+hide_body: false
+is_partial: false
 fields:
 - name: first_slide_title
   label: First slide title
   type: text
   hidden: false
   default: ''
+  description: This is the main title text that appears on the first slide at the
+    top of the home page. This is the larger text.
+  config:
+    required: true
 - name: first_slide_subtitle
   label: First slide subtitle
   type: textarea
   hidden: false
   default: ''
+  description: This is the subtitle text that appears on the first slide at the top
+    of the home page. This is the smaller text.
 - name: first_slide_dailymotion_video_code
   label: First slide dailymotion video code
   type: text
   hidden: false
   default: ''
+  description: 'This is the video code (ex: x65myd) for a DailyMotion video that will
+    appear in the background of the slide. If you do not want a video on this slide,
+    leave this blank. If this is blank, you will need to provide an image for the
+    slide.'
 - name: first_slide_image
   label: First slide image
   type: text
   hidden: false
   default: ''
+  description: This is the URL to an image to be used on the slider. This will ONLY
+    appear if there is no DailyMotion video code for this slide. If there is no DM
+    video code AND no image is specified, the website will find a random cat image.
 - name: first_slide_link_url
   label: First slide link url
   type: text
   hidden: false
   default: ''
+  description: This is the URL of the webpage that you want the user to go when they
+    click on this slide.
 - name: second_slide_title
   label: Second slide title
   type: text
   hidden: false
   default: ''
+  description: This is the main title text that appears on this slide at the top of
+    the home page. This is the larger text.
 - name: second_slide_subtitle
   label: Second slide subtitle
   type: text
   hidden: false
   default: ''
+  description: This is the subtitle text that appears on this slide at the top of
+    the home page. This is the smaller text.
 - name: second_slide_dailymotion_video_code
   label: Second slide dailymotion video code
   type: text
   hidden: false
   default: ''
+  description: 'This is the video code (ex: x65myd) for a DailyMotion video that will
+    appear in the background of the slide. If you do not want a video on this slide,
+    leave this blank. If this is blank, you will need to provide an image for the
+    slide.'
 - name: second_slide_image
   label: Second slide image
   type: text
   hidden: false
   default: ''
+  description: This is the URL to an image to be used on the slider. This will ONLY
+    appear if there is no DailyMotion video code for this slide. If there is no DM
+    video code AND no image is specified, the website will find a random cat image.
 - name: second_slide_link_url
   label: Second slide link url
   type: text
   hidden: false
   default: ''
+  description: This is the URL of the webpage that you want the user to go when they
+    click on this slide.
 - name: third_slide_title
   label: Third slide title
   type: text
   hidden: false
   default: ''
+  description: This is the main title text that appears on this slide at the top of
+    the home page. This is the larger text.
 - name: third_slide_subtitle
   label: Third slide subtitle
   type: textarea
   hidden: false
   default: ''
+  description: This is the subtitle text that appears on this slide at the top of
+    the home page. This is the smaller text.
+- type: text
+  label: third_slide_dailymotion_video_code
+  name: third_slide_dailymotion_video_code
+  description: 'This is the video code (ex: x65myd) for a DailyMotion video that will
+    appear in the background of the slide. If you do not want a video on this slide,
+    leave this blank. If this is blank, you will need to provide an image for the
+    slide.'
+- type: text
+  label: Third_slide_image
+  name: third_slide_image
+  description: This is the URL to an image to be used on the slider. This will ONLY
+    appear if there is no DailyMotion video code for this slide. If there is no DM
+    video code AND no image is specified, the website will find a random cat image.
 - name: third_slide_link_url
   label: Third slide link url
   type: text
   hidden: false
   default: ''
+  description: This is the URL of the webpage that you want the user to go when they
+    click on this slide.
 - name: advertisingBannerImage
   label: Advertisingbannerimage
   type: text
   hidden: false
   default: ''
+  description: This is the URL to an image to be used on the advertising banner. If
+    there is no image, the advertising banner does not appear.
 - name: advertisingBannerURL
-  label: Advertisingbannerurl
+  label: Advertising banner url
   type: text
   hidden: false
   default: ''
+  description: This is the URL to a destination you want to send the user after clicking
+    on the advertising banner.
 - name: latestNewsTitle
-  label: Latestnewstitle
+  label: Latest news title
   type: text
   hidden: false
   default: ''
 - name: latestNewsSubtitle
-  label: Latestnewssubtitle
+  label: Latest news subtitle
   type: text
   hidden: false
   default: ''
 - name: residentsTitle
-  label: Residentstitle
+  label: Residents title
   type: text
   hidden: false
   default: ''
 - name: residentsSubtitle
-  label: Residentssubtitle
+  label: Residents subtitle
   type: text
   hidden: false
   default: ''
 - name: localGuestsTitle
-  label: Localgueststitle
+  label: Local guests title
   type: text
   hidden: false
   default: ''
 - name: localGuestsSubtitle
-  label: Localguestssubtitle
+  label: Local guests subtitle
   type: text
   hidden: false
   default: ''
 - name: worldwideGuestsTitle
-  label: Worldwidegueststitle
+  label: Worldwide guests title
   type: text
   hidden: false
   default: ''
 - name: worldwideGuestsSubtitle
-  label: Worldwideguestssubtitle
+  label: Worldwide guests subtitle
   type: text
   hidden: false
   default: ''
 - name: videoSliderTime
-  label: Videoslidertime
+  label: Top Banner Slider Time
   type: text
   hidden: false
   default: ''
+  description: This is a value in milliseconds for how long we should see any one
+    slide before moving to the next slide. 5000 would mean 5000 ms, or 5 seconds.
+    0 turns off the automatic rotation.
+  config:
+    required: true
 - name: newsSliderTime
-  label: Newsslidertime
+  label: News Slider Time
   type: text
   hidden: false
   default: ''
+  description: This is a value in milliseconds for how long we should see any one
+    slide before moving to the next slide. 5000 would mean 5000 ms, or 5 seconds.
+    0 turns off the automatic rotation.
+  config:
+    required: true
 - name: residentsSliderTime
-  label: Residentsslidertime
+  label: Residents Slider Time
   type: text
   hidden: false
   default: ''
+  description: This is a value in milliseconds for how long we should see any one
+    slide before moving to the next slide. 5000 would mean 5000 ms, or 5 seconds.
+    0 turns off the automatic rotation.
+  config:
+    required: true
 - name: worldwideGuestSliderTime
-  label: Worldwideguestslidertime
+  label: Worldwide Guests Slider Time
   type: text
   hidden: false
   default: ''
+  description: This is a value in milliseconds for how long we should see any one
+    slide before moving to the next slide. 5000 would mean 5000 ms, or 5 seconds.
+    0 turns off the automatic rotation.
+  config:
+    required: true
 - name: localGuestsSliderTime
-  label: Localguestsslidertime
+  label: Local Guests Slider Time
   type: text
   hidden: false
   default: ''
+  description: This is a value in milliseconds for how long we should see any one
+    slide before moving to the next slide. 5000 would mean 5000 ms, or 5 seconds.
+    0 turns off the automatic rotation.
+  config:
+    required: true
