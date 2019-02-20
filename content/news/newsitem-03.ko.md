@@ -7,5 +7,3 @@ featured_image: "/img/CURD.png"
 The SCR Sound System made its international debut this weekend as Curd and Yuzo had mixes featured on SCR affiliate Akito's weekly NTS show.
 
 Click below Mixcloud embeds to enjoy the fire!
-
-![](/img/YUZO.png) ![](/img/CURD.png)
