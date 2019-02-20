@@ -1,37 +1,30 @@
 ---
-first_slide_title: Yaeji [NYC]
-first_slide_subtitle: This subtitle text can be edited in the Forestry Content Management
-  System under the "Front Page" section.
+first_slide_title: Explore Artists and Shows
+first_slide_subtitle: Rewatch Yaeji's masterclass SCR set and more
 first_slide_dailymotion_video_code: x6pwp5k
 first_slide_image: http://placekitten.com/g/728/90
 first_slide_link_url: http://www.yahoo.com/
-second_slide_title: 2018 Highlight Reel
-second_slide_subtitle: Thanks to all our listeners and supporters this past year.
-  Watch out for some big surprises in 2019!
+second_slide_title: 'Latest News '
+second_slide_subtitle: Get updates from artists and clubs in Seoul's Underground Scene
 second_slide_dailymotion_video_code: x70etv8
 second_slide_image: http://placekitten.com/g/728/90
 second_slide_link_url: https://www.dailymotion.com/video/x70etv8
-third_slide_title: Kittens For Everyone
-third_slide_subtitle: You really need to use the content editor to edit the slides.
-  If you leave the DailyMotion video code blank, the slide will default to whatever
-  image you put. If there is no image, it will default to the image of a cat.
-third_slide_dailymotion_video_code: 
-third_slide_image: 
+third_slide_title: Watch and Listen Live
+third_slide_subtitle: Listen to SCR 24/7 Radio Stream and Latest Live Video
+third_slide_dailymotion_video_code: ''
+third_slide_image: http://cdn.visla.kr/wp/wp-content/uploads/2016/06/160622_jC_scrl-1600x1096.png
 third_slide_link_url: http://www.yahoo.com/
 advertisingBannerImage: http://placekitten.com/g/728/90
 advertisingBannerURL: http://www.seoulgsc.com/
 latestNewsTitle: Latest News
-latestNewsSubtitle: This section is for Seoul Community Radio's latest news. Make
-  sure to check them out!
+latestNewsSubtitle: The latest news, views and reviews from Seoul's Underground Scene
 residentsTitle: Residents
-residentsSubtitle: This section is for Seoul Community Radio's latest news. Make sure
-  to check them out!
+residentsSubtitle: Watch and get info on SCR's Regular contributors here
 localGuestsTitle: Local Guests
-localGuestsSubtitle: This section is for Seoul Community Radio's latest news. Make
-  sure to check them out!
+localGuestsSubtitle: The freshest talent inside Korea live on SCR
 worldwideGuestsTitle: Worldwide Guests
-worldwideGuestsSubtitle: This section is for Seoul Community Radio's latest news.
-  Make sure to check them out!
+worldwideGuestsSubtitle: The great and good from worldwide dance music coming through
+  Seoul
 videoSliderTime: 7500
 newsSliderTime: 4000
 residentsSliderTime: 4000
