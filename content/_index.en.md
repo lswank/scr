@@ -30,6 +30,5 @@ newsSliderTime: 4000
 residentsSliderTime: 4000
 worldwideGuestSliderTime: 4000
 localGuestsSliderTime: 4000
-draft: true
 
 ---
