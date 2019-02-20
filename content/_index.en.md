@@ -1,5 +1,5 @@
 ---
-first_slide_title: EXPLORE
+first_slide_title: EXPLORE SHOWS
 first_slide_subtitle: Rewatch Yaeji's masterclass SCR set and more
 first_slide_dailymotion_video_code: x6xgbln
 first_slide_image: https://pbs.twimg.com/media/DTBooiYVwAEE0Sm.jpg:large
