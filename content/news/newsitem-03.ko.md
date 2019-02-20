@@ -1,5 +1,5 @@
 ---
-title: 'SCR Sound System to Feature on NTS Radio  '
+title: '1 SCR Sound System to Feature on NTS Radio  '
 date: 2019-02-02 06:00:00 +0000
 featured_image: "/img/CURD.png"
 
