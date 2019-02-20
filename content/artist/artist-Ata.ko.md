@@ -14,5 +14,6 @@ group: Worldwide
 genres: House, Disco, Techno
 daily-motion-playlist: ''
 daily-motion-video: ''
+draft: true
 
 ---
