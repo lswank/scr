@@ -13,6 +13,6 @@ images: ''
 group: Worldwide
 genres: House, Disco, Techno
 daily-motion-playlist: ''
-daily-motion-video: ''
+daily-motion-video: x6pwp5s
 
 ---
