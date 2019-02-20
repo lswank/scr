@@ -1,7 +1,7 @@
 ---
 first_slide_title: Explore Artists
 first_slide_subtitle: Rewatch Yaeji's masterclass SCR set and more
-first_slide_dailymotion_video_code: x6pwp5k
+first_slide_dailymotion_video_code: https://dai.ly/x6xgbln
 first_slide_image: http://placekitten.com/g/728/90
 first_slide_link_url: http://www.yahoo.com/
 second_slide_title: 'Latest News '
