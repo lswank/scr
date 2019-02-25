@@ -1,6 +1,6 @@
 +++
 date = "2019-02-02T19:00:00+00:00"
-featured_image = "/img/YUZO.png"
+featured_image = "/Baltra-530x328.jpg"
 title = "Test News Article"
 
 +++
