@@ -24,4 +24,5 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/news/test-news-article.md
 - content/news/test-news-article.en.md
