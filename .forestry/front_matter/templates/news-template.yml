@@ -1,18 +1,23 @@
 ---
 label: News Template
-hide_body: 
-is_partial: 
+hide_body: false
+is_partial: false
 fields:
 - name: title
   label: Title
   type: text
   hidden: false
   default: ''
+  config:
+    required: true
 - name: date
-  label: Date
+  label: Publication Date
   type: datetime
   hidden: false
   default: ''
+  description: The publication date determines the display order.
+  config:
+    required: true
 - name: featured_image
   label: Featured image
   type: file
