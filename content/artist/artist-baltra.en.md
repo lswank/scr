@@ -7,7 +7,7 @@ artist-description: 'Baltra is a DJ/Producer based in New York expanding his mus
   dance muslc labels. He has collaborated with Yaeji, DJ Seinfeld, and DJ Boring,
   among many other influential house music producers, making his mark in house music
   history. '
-artist-featured-image: "/img/Baltra-530x328.jpg"
+artist-featured-image: "Baltra-530x328.jpg"
 artist-facebook: seoulcommunityradio
 artist-twitter: Radio_SCR
 artist-instagram: scr_radio

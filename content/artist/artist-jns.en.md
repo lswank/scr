@@ -7,7 +7,7 @@ artist-description: JNS is the head honcho at Honey Badger Records, one of Korea
   in a very distinct Korean way over this time. JNS spent a number of years playing
   and producing in London before returning home in 2013 and is a firm club fixture
   in Seoul’s nightlife.
-artist-featured-image: "/img/jns sonar.jpg"
+artist-featured-image: "jns sonar.jpg"
 artist-facebook: seoulcommunityradio
 artist-twitter: Radio_SCR
 artist-instagram: scr_radio

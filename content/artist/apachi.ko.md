@@ -2,7 +2,7 @@
 title: Apachi
 artist-name: Apachi
 artist-description: Korean description not available.
-artist-featured-image: "/img/noimage2.png"
+artist-featured-image: "noimage2.png"
 artist-facebook: seoulcommunityradio
 artist-twitter: Radio_SCR
 artist-instagram: scr_radio

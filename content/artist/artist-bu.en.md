@@ -4,7 +4,7 @@ artist-name: Beton Brut Night
 artist-description: Beton Brut is a show/underground Techno club in Korea. Mainly
   hosted by Inger, QNA who bring talented international/local guests. The musical
   genre of Beton Brut ranges from Ambient, Experimental to Techno.
-artist-featured-image: "/img/BetonBrut02.png"
+artist-featured-image: "BetonBrut02.png"
 artist-facebook: seoulcommunityradio
 artist-twitter: Radio_SCR
 artist-instagram: scr_radio
