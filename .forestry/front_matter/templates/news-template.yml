@@ -23,3 +23,5 @@ fields:
   type: file
   hidden: false
   default: ''
+pages:
+- content/news/test-news-article.md
