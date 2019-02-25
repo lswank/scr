@@ -3,7 +3,7 @@ title: Beton Brut Night
 artist-name: Beton Brut Night
 artist-description: Beton Brut 은 한국의 언더그라운드 테크노 클럽이자 쇼이다. Inger 와 QNA 를 중심으로 진행되며
   Ambient, Experimental, Tech House, Techno 등의 장르를 다루고있다.
-artist-featured-image: "/img/BetonBrut02.png"
+artist-featured-image: "BetonBrut02.png"
 artist-facebook: seoulcommunityradio
 artist-twitter: Radio_SCR
 artist-instagram: scr_radio
