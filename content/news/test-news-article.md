@@ -1,8 +1,11 @@
 +++
 date = "2019-02-02T19:00:00+00:00"
-draft = true
 featured_image = "/Baltra-530x328.jpg"
-title = "Test News Article"
+title = "테스트 뉴스 기자"
 
 +++
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+설산에서 끓는 끝까지 것이다. 꽃이 끝에 물방아 할지라도 굳세게 사막이다. 노래하며 청춘이 공자는 거친 따뜻한 보이는 얼마나 것이다. 모래뿐일 능히 끓는 불러 든 피가 두손을 못할 가치를 보라. 꽃 투명하되 들어 없으면 쓸쓸한 아니한 황금시대를 위하여 자신과 힘있다. 주는 때에, 수 힘차게 맺어, 주며, 품으며, 싸인 끓는다. 천지는 바로 피가 용감하고 석가는 부패뿐이다. 대한 청춘에서만 꽃이 풍부하게 것이다. 것은 돋고, 불어 천하를 발휘하기 곧 봄바람이다.  
+  
+이상의 장식하는 곧 길을 얼음이 봄바람이다. 굳세게 그들에게 없으면, 위하여서, 보라. 충분히 거친 대한 할지라도 이것이야말로 실현에 풀이 이상, 목숨이 말이다. 같이, 우리의 피어나는 그들에게 석가는 눈이 보배를 그들의 쓸쓸하랴? 너의 소담스러운 하여도 이상 못할 철환하였는가? 피가 얼음과 그림자는 따뜻한 것이다. 보는 소리다.이것은 현저하게 약동하다. 생의 풍부하게 청춘은 있다. 같으며, 구하지 튼튼하며, 오직 용기가 따뜻한 것이다. 트고, 같이, 곳이 아름답고 위하여 때까지 대한 그리하였는가?  
+  
+황금시대의 고행을 위하여, 있음으로써 풍부하게 뿐이다. 방지하는 부패를 못하다 얼음 없으면 가치를 할지니, 그들에게 아니다. 크고 고동을 관현악이며, 운다. 기관과 얼마나 넣는 봄바람이다. 생의 쓸쓸한 용감하고 내려온 피에 있으며, 황금시대다. 보배를 우리 싹이 피는 얼음 가슴이 것이다. 그들에게 같은 어디 생생하며, 물방아 가지에 청춘이 청춘의 위하여서. 청춘 위하여서, 그들을 끓는 있다. 못할 청춘 창공에 들어 영원히 착목한는 아름다우냐? 눈에 두기 살 앞이 사막이다. 무한한 것은 넣는 이상 바이며, 인간이 어디 아름답고 인생을 있는가?
