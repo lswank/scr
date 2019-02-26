@@ -24,5 +24,6 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/news/ssscr-scr-x-shock-shock-labs-event-review-+-interview-with-dr-shogi.md
 - content/news/test-news-article.md
 - content/news/test-news-article.en.md
