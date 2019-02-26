@@ -17,18 +17,17 @@ third_slide_link_url: http://www.yahoo.com/
 advertisingBannerImage: http://placekitten.com/g/728/90
 advertisingBannerURL: http://www.seoulgsc.com/
 latestNewsTitle: Latest News
-latestNewsSubtitle: The latest news, views and reviews from Seoul's Underground Scene
+latestNewsSubtitle: ''
 residentsTitle: Residents
-residentsSubtitle: Watch and get info on SCR's Regular contributors here
+residentsSubtitle: ''
 localGuestsTitle: Local Guests
-localGuestsSubtitle: The freshest talent inside Korea live on SCR
+localGuestsSubtitle: ''
 worldwideGuestsTitle: Worldwide Guests
-worldwideGuestsSubtitle: The great and good from worldwide dance music coming through
-  Seoul
-videoSliderTime: 7500
-newsSliderTime: 4000
-residentsSliderTime: 4000
-worldwideGuestSliderTime: 4000
-localGuestsSliderTime: 4000
+worldwideGuestsSubtitle: ''
+videoSliderTime: 1000
+newsSliderTime: 10000
+residentsSliderTime: 10000
+worldwideGuestSliderTime: 10000
+localGuestsSliderTime: 10000
 
 ---
