@@ -220,5 +220,5 @@ fields:
   config:
     required: true
 pages:
-- content/_index.en.md
 - content/_index.ko.md
+- content/_index.en.md
