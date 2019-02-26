@@ -1,7 +1,7 @@
 ---
 first_slide_title: EXPLORE SHOWS
 first_slide_subtitle: Rewatch Yaeji's masterclass SCR set and more
-first_slide_dailymotion_video_code: x6xgbln
+first_slide_dailymotion_video_code: k5DORmOMlZHQzOsZwMw
 first_slide_image: https://pbs.twimg.com/media/DTBooiYVwAEE0Sm.jpg:large
 first_slide_link_url: https://www.dailymotion.com/video/x6pwp5k
 second_slide_title: LATEST NEWS
