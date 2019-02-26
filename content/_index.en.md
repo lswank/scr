@@ -24,10 +24,10 @@ localGuestsTitle: Local Guests
 localGuestsSubtitle: ''
 worldwideGuestsTitle: Worldwide Guests
 worldwideGuestsSubtitle: ''
-videoSliderTime: 1000
-newsSliderTime: 10000
-residentsSliderTime: 10000
-worldwideGuestSliderTime: 10000
-localGuestsSliderTime: 10000
+videoSliderTime: 10000
+newsSliderTime: 0
+residentsSliderTime: 0
+worldwideGuestSliderTime: 0
+localGuestsSliderTime: 0
 
 ---
