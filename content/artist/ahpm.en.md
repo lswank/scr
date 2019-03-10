@@ -5,7 +5,7 @@ artist-description: Tiger Disco and Lee Neung Keum are DJs who understand Korean
   the best, swaying between Disco, Funk through to Instrumental Folk, showcasing the
   sound of Korean music throughout the generations, touching on nostalgia and general
   curiosity of the countries rich music history.
-artist-featured-image: "/aspect-4x3.png"
+artist-featured-image: "/AHPM & SLPM.png"
 artist-facebook: seoulcommunityradio
 artist-twitter: Radio_SCR
 artist-instagram: scr_radio
