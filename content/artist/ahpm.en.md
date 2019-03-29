@@ -11,7 +11,9 @@ artist-twitter: Radio_SCR
 artist-instagram: scr_radio
 artist-soundcloud: seoulcommunityradio
 artist-youtubeChannelID: UCUjB4nj0j-pYBaYI0sXekfw
-images: ''
+images:
+- "/Lee Neung Geum.png"
+- "/Tiger Disco.png"
 group: Residents
 genres: ''
 daily-motion-playlist: ''
