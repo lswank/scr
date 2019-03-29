@@ -9,7 +9,8 @@ artist-twitter: Radio_SCR
 artist-instagram: scr_radio
 artist-soundcloud: seoulcommunityradio
 artist-youtubeChannelID: UCUjB4nj0j-pYBaYI0sXekfw
-images: []
+images:
+- "/QNA.png"
 group: Local Guests
 genres: Ambient, Experimental, Tech House, Techno
 daily-motion-playlist: ''
