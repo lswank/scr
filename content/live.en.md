@@ -2,7 +2,7 @@
 title: 'SCR Live Stream '
 date: 2018-12-19T09:48:41.000+00:00
 type: live
-channelid: x6u83op
+channelid: x7d2j4p
 
 ---
 Watch SCR Live streams Here
